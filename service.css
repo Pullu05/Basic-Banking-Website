@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#navber{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:0px;
+    background-color:rgb(111 122 206);
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px 5px ;
+}
+
+#logo img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 0px 15px;
+}
+#logo p{
+    font-weight: blod;
+    color: white;
+}
+
+#navber ul{
+    display: flex;
+    list-style: none;
+}
+
+#navber ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 21px;
+    margin: 9px 8px;
+    padding: 3px 9px;
+    border-radius: 15px;
+}
+#navber ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* END OF NAV BAR---------------------------- */
+#service-container{
+    margin: 60px 0px;
+}
+#service{
+    display: flex;
+    margin: 20px 25px;
+}
+#service .box{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(187, 22, 22);
+    margin: 10px;
+    padding: 20px;
+    height: 270px;
+    width: 33.3%;
+    background-color:#fffdfb;
+    border-radius: 65px;
+}
+#service .box:hover{
+    box-shadow: 2px 2px 1px brown;
+    color: rgb(130, 143, 241);;
+}
+#service .box img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+#service .box p{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding:1px 10px;
+    color:#204e0c;
+    font-size: 14px;
+}
+#service .box h3{
+    color: #621a6c;
+}
+
+
+/* --------------------------------------------------- */
+#contact{
+    background-color:rgb(175 75 122);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height: 134px;
+}
+#contact p{
+    padding: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#contact div i{
+    padding: 10px;
+}
+/* -------------------------------------------------- */
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+/* -------------General class------------------ */
+.primary-h{
+    font-size: 3rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #23587e;
+    
+}
+.secondary-h{
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.center{
+    text-align: center;
+}

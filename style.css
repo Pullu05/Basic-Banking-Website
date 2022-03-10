@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#navber{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:0px;
+    background-color: rgb(111 122 206);
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px 5px ;
+}
+
+#logo img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 0px 15px;
+}
+#logo p{
+    font-weight: blod;
+    color: white;
+}
+
+#navber ul{
+    display: flex;
+    list-style: none;
+}
+
+#navber ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 21px;
+    margin: 9px 8px;
+    padding: 3px 9px;
+    border-radius: 20px;
+}
+#navber ul li a:hover{
+    background-color: rgb(130, 143, 241);
+    color: black;
+}
+
+
+/* end of nav bar  */
+
+#home{
+    display: flex;
+    margin: 3px 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+    
+}
+#home::before{
+    content: "";
+    position:absolute;
+    top:0px;
+    background: url("bg.png") no-repeat center center/cover;
+    width: 100%;
+    height: 745px;
+    z-index: -2;
+    opacity:.75;
+}
+
+#home h2{
+    color:black;
+    font-size: 3rem;
+}
+#home div{
+    text-align: center;
+    padding-top:9px ;
+}
+#home div p{
+    font-size: 1.5rem;
+    color:black;
+    font-weight: bold;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+/* --------------End of Home section----------------- */
+
+/* footer */
+
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}

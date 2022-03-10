@@ -1,0 +1,34 @@
+#navber{
+    flex-direction: column;
+    height: 107px;
+}
+#navber ul li a {
+    font-size: 11px;
+    margin: 6px 4px;
+    padding: 6px;
+    line-height: 12.8px;
+}
+#home{
+    height: 653px;
+}
+#home::before{
+    height: 765px;
+}
+#home h2 {
+    font-size:30px;
+    text-align: center;
+}
+#home div{
+    padding-top: 25px;
+}
+#home div p {
+    font-size: 20px;
+}
+
+
+#footer{
+    bottom: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

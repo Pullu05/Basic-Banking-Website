@@ -1,0 +1,51 @@
+#navber{
+    flex-direction: column;
+}
+#navber ul li a {
+    font-size: 11px;
+    margin: 6px 4px;
+    padding: 6px;
+}
+#home{
+    height: 653px;
+}
+#home::before{
+    height: 765px;
+}
+#home h2 {
+    font-size:30px;
+    text-align: center;
+}
+#home div{
+    padding-top: 25px;
+}
+#home div p {
+    font-size: 20px;
+}
+/* ---------------------------------------------------- */
+#service-container{
+    margin-top: 15px;
+}
+#service{
+    flex-direction: column;
+    margin: 0px 15px;
+}
+#service .box{
+    height: 100%;
+    width:81%;
+}
+#service .box p {
+    padding: 2px 5px;
+}
+/* ------------------------------------------------ */
+#contact p{
+    text-align: center;
+}
+
+/* ---------------------------------------------------- */
+#footer{
+    bottom: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

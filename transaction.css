@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#navber{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:0px;
+    background-color: rgb(111 122 206);
+    height: 68.4px;
+
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px 5px ;
+    line-height: 1.15rem;
+}
+
+#logo img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 0px 15px;
+}
+#logo p{
+    font-weight: blod;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navber ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+#navber ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 21px;
+    margin: 9px 8px;
+    padding: 3px 9px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 24px;
+}
+#navber ul li a:hover{
+    background-color: rgb(130, 143, 241);;
+    color: black;
+}
+
+/* -------------------------------------------------- */
+
+#main
+{
+	text-align: center;
+background-color:rgb(235, 235, 245);
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgba(17, 5, 13, 0.616)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(64, 64, 68)!important;
+}
+#footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#footer p{
+    margin-bottom: 0;
+}

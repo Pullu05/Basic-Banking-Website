@@ -4,9 +4,9 @@
 This is Task 1 " Online Bank Service " of The Spark Foundation under their #GRIPMARCH22 Program
 
 # Languages Used
-HTML
-CSS
-JAVA SCRIPT
+1.HTML
+2.CSS
+3.JAVA-SCRIPT
 
 # SOFTWARE USED:
 VS CODE

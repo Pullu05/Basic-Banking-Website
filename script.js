@@ -7,10 +7,10 @@ function sendMoney() {
    var ispresentReceiver = document.getElementById(RName);
    
    if (!ispresentSender) {
-      alert("Customar is not in the Customar Data-Base");
+      alert("Customer is not present in the Data-Base");
    }
    else if(!ispresentReceiver){
-      alert("Customar is not in the Customar Data-Base");
+      alert("Customer is not present in the Data-Base");
    }
    else {
       var SenderTotalAmount = document.getElementById(SName).innerHTML;
